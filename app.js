@@ -19,6 +19,8 @@ $.getJSON("https://www.googleapis.com/youtube/v3/search", parameters, function(d
 		$('.results').append("<li class='resultItem'><img src='"+thumbnail+"' target='_blank'><br>" +title+ "</li>");
 		}
 	})
+
+	//to use embedded vid as thumbnail, opted not to pursue this option...
 // $('.results').click(function() {
 // 		$(this).html('<iframe width="560" height="315" src="https://www.youtube.com/embed/'+this.id.videoId+'?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
 // 		})
