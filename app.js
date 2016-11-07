@@ -16,7 +16,7 @@ $.getJSON("https://www.googleapis.com/youtube/v3/search", parameters, function(d
 		var videoLink = "https://www.youtube.com/watch?v="+this.id.videoId;
 		var thumbnail = this.snippet.thumbnails.medium.url;
 		var title = this.snippet.title;
-		$('.results').append("<li class='resultItem'><img src='"+thumbnail+"' target='_blank'><br>" +title+ "</li>");
+		$('.results').append("<li class='resultItem'><a href='"+videoLink+"' target='_blank'><img src='"+thumbnail+"'><br>" +title+ "</a></li>");
 		}
 	})
 
