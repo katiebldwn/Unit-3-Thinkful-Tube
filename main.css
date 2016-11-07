@@ -1,0 +1,19 @@
+.resultItem {
+	display: inline-block;
+	padding: 20px;
+	width: 30%;
+	vertical-align: top;
+}
+
+.resultItem a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.resultItem img {
+	width: 100%;
+}
+
+.resultItem {
+	cursor: pointer;
+}
